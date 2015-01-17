@@ -1,0 +1,95 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\usepackage[francais]{babel}
+\usepackage{caption}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{helvet} % Pour le texe
+\usepackage[hidelinks]{hyperref}
+\usepackage{listings}
+\usepackage{url}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{inconsolata} % Pour les listings
+
+\author{Auteur 1 \and Auteur 2}
+\title{Titre}
+\date{Date du rendu}
+
+\lstset{ % Adapted from http://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings
+  backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+  basicstyle=\footnotesize\ttfamily,        % the size of the fonts that are used for the code
+  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 % sets automatic line breaking
+  captionpos=b,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  frame=single,                    % adds a frame around the code
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  keywordstyle=\color{blue},       % keyword style
+  morekeywords={func, package, import},            % if you want to add more keywords to the set
+  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                   % how far the line-numbers are from the code
+  numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  stringstyle=\color{mymauve},     % string literal style
+  tabsize=2,                       % sets default tabsize to 2 spaces
+  title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\section{Première Section}
+\subsection{Première sous-section}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl risus, semper et commodo at, faucibus a metus. In ac neque neque. Integer aliquam vulputate neque, ultricies tincidunt metus ultricies vitae. Maecenas non ex viverra, pretium turpis in, lacinia augue. Nam vehicula sodales hendrerit. Nullam et nunc id sapien convallis placerat ac ut orci. Donec sit amet rhoncus lectus. Maecenas a tempor libero. Integer eget velit scelerisque, ullamcorper magna fringilla, tristique erat. Mauris nec fringilla erat. Cras interdum massa non convallis tincidunt.
+\newline
+
+Vivamus in magna egestas, condimentum elit viverra, bibendum quam. Vestibulum ornare pharetra efficitur. Donec vitae turpis libero. Quisque in dolor et magna fringilla commodo. Suspendisse faucibus lacus quis turpis lobortis hendrerit. Sed vestibulum risus eu eros mattis dictum. Mauris molestie lectus et vestibulum consequat. Phasellus et magna dignissim, ultricies odio nec, scelerisque justo. Nulla consequat finibus consectetur. Proin blandit laoreet aliquam. Morbi gravida sagittis metus sit amet pulvinar. Donec ut rhoncus lorem, vel finibus velit. Vestibulum nec justo quis sapien tristique consequat ut in metus. Sed augue est, luctus vitae suscipit et, varius eu lectus. Ut ac ex augue. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+\newline
+
+Nunc consectetur arcu at suscipit placerat. Proin placerat, elit eget condimentum volutpat, nibh ex sollicitudin tortor, in efficitur augue ex eu est. Vivamus hendrerit at tellus eu varius. Cras ut auctor augue, eget blandit quam. In sed purus leo. Fusce varius dui id ligula suscipit euismod. Vivamus et euismod est, vel eleifend lorem. Donec pretium pellentesque ante, nec placerat nibh auctor sed. Ut vehicula tempor ipsum, sit amet posuere mi efficitur ac. Curabitur tellus arcu, sagittis feugiat tristique vel, maximus quis lectus. Vivamus a dui varius, egestas nulla non, hendrerit dolor. Donec quis turpis iaculis, facilisis neque vel, blandit nunc. Integer vestibulum suscipit diam. Nam luctus convallis felis id posuere. Nulla interdum ornare leo.
+\newline
+
+Pellentesque luctus semper dolor ut tempor. Maecenas congue vulputate orci, sed vehicula elit porttitor quis. Morbi mauris tortor, pellentesque a turpis quis, tristique viverra sapien. Quisque leo massa, interdum in sem id, cursus gravida arcu. Etiam sed orci sit amet lacus malesuada consequat at nec urna. Sed vehicula, enim in viverra aliquam, lorem risus pulvinar purus, eget mattis turpis sem quis odio. Donec placerat odio ac tortor finibus, eu ultrices quam vulputate. Fusce hendrerit vestibulum elit vitae dignissim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vel eleifend libero.
+\newline
+
+Cras ut aliquam urna, nec malesuada dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat, est sit amet pharetra tincidunt, sapien elit malesuada elit, sit amet tempor nibh neque et lorem. Duis tincidunt augue id mauris tempus tempus. Quisque venenatis eleifend lorem eget porta. Nulla tempus sollicitudin ante, sit amet pretium arcu iaculis sed. Maecenas commodo sem quis tristique efficitur.
+
+
+\section{Deuxième Section}
+\begin{figure}
+\begin{lstlisting}
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello, World!")
+}
+\end{lstlisting}
+\caption{Votre premier programme en go}
+\label{code:sample1}
+\end{figure}
+
+La figure \ref{code:sample1} à la page \pageref{code:sample1} est un exemple de programme go.
+
+Le programme de la formation n'est pas à jour\cite{fil}.
+
+\bibliography{references}
+\bibliographystyle{plain}
+\end{document}
